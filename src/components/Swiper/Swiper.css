@@ -1,0 +1,46 @@
+.swiper__container {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.swiper__window {
+  height: 110px;
+  width: 100%;
+  overflow: scroll;
+  position: relative;
+}
+
+.swiper__button {
+  position: absolute;
+  height: 100%;
+  background-color: #141414;
+  border: none;
+  border-radius: 8px;
+  z-index: 2;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.swiper__button:hover {
+  background-color: #252525;
+}
+
+.swiper__button_left {
+  top: 0;
+  left: 0;
+}
+
+.swiper__button_right {
+  top: 0;
+  right: 0;
+}
+
+.swiper__slides {
+  position: absolute;
+  height: 100%;
+  display: flex;
+  gap: 10px;
+  box-sizing: border-box;
+  padding: 0 200px 0 30px;
+}

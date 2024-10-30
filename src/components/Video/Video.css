@@ -1,0 +1,13 @@
+.video__container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+
+.video__content {
+  width: 100%;
+  height: 100%;
+}

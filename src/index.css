@@ -1,0 +1,6 @@
+@import url("./vendor/normalize.css");
+@import url("./components/App/App.css");
+@import url("./components/Header/Header.css");
+@import url("./components/Swiper/Swiper.css");
+@import url("./components/Slide/Slide.css");
+@import url("./components/Video/Video.css");
